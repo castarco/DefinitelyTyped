@@ -123,6 +123,9 @@ declare namespace massive {
 
     class Entity {
         constructor(spec: EntitySpecification);
+
+        /** The entity's name. */
+        name: string
     }
 
     interface ExecutableSpecification {
